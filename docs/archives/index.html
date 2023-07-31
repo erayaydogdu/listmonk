@@ -9,17 +9,17 @@
       
       
       
-        <link rel="prev" href="../upgrade/">
+        <link rel="prev" href="../messengers/">
       
       
-        <link rel="next" href="../developer-setup/">
+        <link rel="next" href="../i18n/">
       
       <link rel="icon" href="../images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.1, mkdocs-material-9.1.21">
     
     
       
-        <title>Configuration - listmonk / Documentation</title>
+        <title>Archives - listmonk / Documentation</title>
       
     
     
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#configuration" class="md-skip">
+        <a href="#archives" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Configuration
+              Archives
             
           </span>
         </div>
@@ -233,133 +233,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Configuration
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../configuration/" class="md-nav__link">
         Configuration
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#toml-configuration-file" class="md-nav__link">
-    TOML Configuration file
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#environment-variables" class="md-nav__link">
-    Environment variables
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#customizing-system-templates" class="md-nav__link">
-    Customizing system templates
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#http-routes" class="md-nav__link">
-    HTTP routes
-  </a>
-  
-    <nav class="md-nav" aria-label="HTTP routes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#private-admin-endpoints" class="md-nav__link">
-    Private admin endpoints.
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#public-endpoints-to-expose-to-the-internet" class="md-nav__link">
-    Public endpoints to expose to the internet.
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#media-uploads" class="md-nav__link">
-    Media Uploads
-  </a>
-  
-    <nav class="md-nav" aria-label="Media Uploads">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#filesystem" class="md-nav__link">
-    Filesystem
-  </a>
-  
-    <nav class="md-nav" aria-label="Filesystem">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#using-volumes" class="md-nav__link">
-    Using volumes
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#using-bind-mounts" class="md-nav__link">
-    Using bind mounts
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -460,11 +338,21 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../archives/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Archives
       </a>
+      
     </li>
   
 
@@ -639,102 +527,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#toml-configuration-file" class="md-nav__link">
-    TOML Configuration file
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#environment-variables" class="md-nav__link">
-    Environment variables
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#customizing-system-templates" class="md-nav__link">
-    Customizing system templates
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#http-routes" class="md-nav__link">
-    HTTP routes
-  </a>
-  
-    <nav class="md-nav" aria-label="HTTP routes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#private-admin-endpoints" class="md-nav__link">
-    Private admin endpoints.
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#public-endpoints-to-expose-to-the-internet" class="md-nav__link">
-    Public endpoints to expose to the internet.
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#media-uploads" class="md-nav__link">
-    Media Uploads
-  </a>
-  
-    <nav class="md-nav" aria-label="Media Uploads">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#filesystem" class="md-nav__link">
-    Filesystem
-  </a>
-  
-    <nav class="md-nav" aria-label="Filesystem">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#using-volumes" class="md-nav__link">
-    Using volumes
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#using-bind-mounts" class="md-nav__link">
-    Using bind mounts
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -748,149 +540,29 @@
                   
 
 
-<h1 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h1>
-<h3 id="toml-configuration-file">TOML Configuration file<a class="headerlink" href="#toml-configuration-file" title="Permanent link">&para;</a></h3>
-<p>One or more TOML files can be read by passing <code>--config config.toml</code> multiple times. Apart from a few low level configuration variables and the database configuration, all other settings can be managed from the <code>Settings</code> dashboard on the admin UI.</p>
-<p>To generate a new sample configuration file, run <code>--listmonk --new-config</code></p>
-<h3 id="environment-variables">Environment variables<a class="headerlink" href="#environment-variables" title="Permanent link">&para;</a></h3>
-<p>Variables in config.toml can also be provided as environment variables prefixed by <code>LISTMONK_</code> with periods replaced by <code>__</code> (double underscore). Example:</p>
-<table>
-<thead>
-<tr>
-<th><strong>Environment variable</strong></th>
-<th>Example value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>LISTMONK_app__address</code></td>
-<td>"0.0.0.0:9000"</td>
-</tr>
-<tr>
-<td><code>LISTMONK_app__admin_username</code></td>
-<td>listmonk</td>
-</tr>
-<tr>
-<td><code>LISTMONK_app__admin_password</code></td>
-<td>listmonk</td>
-</tr>
-<tr>
-<td><code>LISTMONK_db__host</code></td>
-<td>db</td>
-</tr>
-<tr>
-<td><code>LISTMONK_db__port</code></td>
-<td>9432</td>
-</tr>
-<tr>
-<td><code>LISTMONK_db__user</code></td>
-<td>listmonk</td>
-</tr>
-<tr>
-<td><code>LISTMONK_db__password</code></td>
-<td>listmonk</td>
-</tr>
-<tr>
-<td><code>LISTMONK_db__database</code></td>
-<td>listmonk</td>
-</tr>
-<tr>
-<td><code>LISTMONK_db__ssl_mode</code></td>
-<td>disable</td>
-</tr>
-</tbody>
-</table>
-<h3 id="customizing-system-templates">Customizing system templates<a class="headerlink" href="#customizing-system-templates" title="Permanent link">&para;</a></h3>
-<p><a href="../templating/#system-templates">Read this</a></p>
-<h3 id="http-routes">HTTP routes<a class="headerlink" href="#http-routes" title="Permanent link">&para;</a></h3>
-<p>When configuring auth proxies and web application firewalls, use this table.</p>
-<h4 id="private-admin-endpoints">Private admin endpoints.<a class="headerlink" href="#private-admin-endpoints" title="Permanent link">&para;</a></h4>
-<table>
-<thead>
-<tr>
-<th>Methods</th>
-<th>Route</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>*</code></td>
-<td><code>/api/*</code></td>
-<td>Admin APIs</td>
-</tr>
-<tr>
-<td><code>GET</code></td>
-<td><code>/admin/*</code></td>
-<td>Admin UI and HTML pages</td>
-</tr>
-<tr>
-<td><code>POST</code></td>
-<td><code>/webhooks/bounce</code></td>
-<td>Admin bounce webhook</td>
-</tr>
-</tbody>
-</table>
-<h4 id="public-endpoints-to-expose-to-the-internet">Public endpoints to expose to the internet.<a class="headerlink" href="#public-endpoints-to-expose-to-the-internet" title="Permanent link">&para;</a></h4>
-<table>
-<thead>
-<tr>
-<th>Methods</th>
-<th>Route</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>GET, POST</code></td>
-<td><code>/subscription/*</code></td>
-<td>HTML subscription pages</td>
-</tr>
-<tr>
-<td><code>GET,</code></td>
-<td><code>/link/*</code></td>
-<td>Tracked link redirection</td>
-</tr>
-<tr>
-<td><code>GET</code></td>
-<td><code>/campaign/*</code></td>
-<td>Pixel tracking image</td>
-</tr>
-<tr>
-<td><code>GET</code></td>
-<td><code>/public/*</code></td>
-<td>Static files for HTML subscription pages</td>
-</tr>
-<tr>
-<td><code>POST</code></td>
-<td><code>/webhooks/service/*</code></td>
-<td>Bounce webhook endpoints for AWS and Sendgrid</td>
-</tr>
-</tbody>
-</table>
-<h2 id="media-uploads">Media Uploads<a class="headerlink" href="#media-uploads" title="Permanent link">&para;</a></h2>
-<h3 id="filesystem">Filesystem<a class="headerlink" href="#filesystem" title="Permanent link">&para;</a></h3>
-<p>When configuring <code>docker</code> volume mounts for using filesystem media uploads, you can follow either of two approaches.</p>
-<h4 id="using-volumes">Using volumes<a class="headerlink" href="#using-volumes" title="Permanent link">&para;</a></h4>
-<p>Using <code>docker volumes</code>, you can specify the name of volume and destination for the files to be uploaded inside the container.</p>
-<div class="highlight"><pre><span></span><code>app:
-    volumes:
-      - type: volume
-        source: listmonk-uploads
-        target: /listmonk/uploads
-
-volumes:
-  listmonk-uploads:
+<h1 id="archives">Archives<a class="headerlink" href="#archives" title="Permanent link">&para;</a></h1>
+<p>A global public archive is maintained on the public web interface. It can be
+enabled under Settings -&gt; Settings -&gt; General -&gt; Enable public mailing list
+archive.</p>
+<p>To make a campaign available in the public archive (provided it has been
+enabled in the settings as described above), enable the option
+'Publish to public archive' under Campaigns -&gt; Create new -&gt; Archive.</p>
+<p>When using template variables that depend on subscriber data (such as any
+template variable referencing <code>.Subscriber</code>), such data must be supplied
+as 'Campaign metadata', which is a JSON object that will be used in place
+of <code>.Subscriber</code> when rendering the archive template and content.</p>
+<p>When individual subscriber tracking is enabled, TrackLink requires that a UUID
+of an existing user is provided as part of the campaign metadata. Any clicks on
+a TrackLink from the archived campaign will be counted towards that subscriber.</p>
+<p>As an example:</p>
+<div class="highlight"><pre><span></span><code><span class="p">{</span>
+<span class="w">  </span><span class="nt">&quot;UUID&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;5a837423-a186-5623-9a87-82691cbe3631&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;email&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;example@example.com&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Reader&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;attribs&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{}</span>
+<span class="p">}</span>
 </code></pre></div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This volume is managed by <code>docker</code> itself, and you can see find the host path with <code>docker volume inspect listmonk_listmonk-uploads</code>.</p>
-</div>
-<h4 id="using-bind-mounts">Using bind mounts<a class="headerlink" href="#using-bind-mounts" title="Permanent link">&para;</a></h4>
-<div class="highlight"><pre><span></span><code>    volumes:
-      - /data/uploads:/listmonk/uploads
-</code></pre></div>
-<p>The files will be available inside <code>/data/uploads</code> directory on the host machine.</p>
+<p><img alt="Archive campaign" src="../images/archived-campaign-metadata.png" /></p>
 
 
 
