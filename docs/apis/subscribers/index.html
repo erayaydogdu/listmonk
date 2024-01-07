@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.1">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.45e1311d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -1646,7 +1646,19 @@
 <td style="text-align: left;">query</td>
 <td style="text-align: left;">string</td>
 <td style="text-align: left;"></td>
-<td style="text-align: left;">Subscriber search term by name.</td>
+<td style="text-align: left;">Subscriber search by SQL expression.</td>
+</tr>
+<tr>
+<td style="text-align: left;">list_id</td>
+<td style="text-align: left;">int[]</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">ID of lists to filter by. Repeat in the query for multiple values.</td>
+</tr>
+<tr>
+<td style="text-align: left;">subscription_status</td>
+<td style="text-align: left;">string</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Subscription status to filter by if there are one or more <code>list_id</code>s.</td>
 </tr>
 <tr>
 <td style="text-align: left;">order_by</td>
